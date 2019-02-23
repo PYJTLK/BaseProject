@@ -1,4 +1,4 @@
-package baseproject.base.pager;
+package baseproject.widget.viewpager;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +9,7 @@ import android.view.View;
 
 /**
  * 多类型数据加载支持类,可以继承这个类实现ViewPager加载多种界面
- * 用在{@link baseproject.base.pager.MultiPagerAdapter} 或 {@link baseproject.base.pager.MultiLoopPagerAdapter}
+ * 用在{@link baseproject.widget.viewpager.MultiPagerAdapter} 或 {@link baseproject.widget.viewpager.MultiLoopPagerAdapter}
  * 可以与{@link baseproject.base.mvp.BaseLazyloadFragment}结合使用,实现懒加载
  * @param <D>
  */
