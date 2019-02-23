@@ -18,7 +18,7 @@ public abstract class BaseApplication extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
-        //图片加载器初始胡
+        //图片加载器初始化
         ImageLoader.getImageLoader().init(this);
 
         //ARouter初始化

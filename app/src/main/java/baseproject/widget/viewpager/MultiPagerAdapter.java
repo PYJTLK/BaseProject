@@ -1,4 +1,4 @@
-package baseproject.base.pager;
+package baseproject.widget.viewpager;
 
 import android.content.Context;
 import android.view.LayoutInflater;
