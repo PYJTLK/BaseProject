@@ -1,0 +1,13 @@
+1.manifest
+复制权限
+复制<meta-data>
+设置当前Application
+
+2.文件夹
+拷贝整个baseproject文件夹
+主文件夹的ui自己写
+创建一个Application继承与BaseApplication(在manifest中设置好)
+
+3.Gradle
+拷贝Gradle内容(注意注释内容)
+

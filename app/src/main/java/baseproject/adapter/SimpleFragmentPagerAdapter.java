@@ -1,0 +1,28 @@
+package baseproject.adapter;
+
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+
+import java.util.List;
+
+import baseproject.base.pager.BaseFragmentPagerAdapter;
+
+/**
+ * Created by Administrator on 2019/2/14.
+ */
+
+public class SimpleFragmentPagerAdapter extends BaseFragmentPagerAdapter{
+    public SimpleFragmentPagerAdapter(FragmentManager fm, List<Fragment> fragments) {
+        super(fm, fragments);
+    }
+
+    @Override
+    public Fragment getItem(int position) {
+        return mFragmentList.get(position);
+    }
+
+    @Override
+    public int getCount() {
+        return mFragmentList.size();
+    }
+}
